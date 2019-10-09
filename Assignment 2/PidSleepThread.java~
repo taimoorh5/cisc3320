@@ -1,0 +1,29 @@
+public class PidSleepThread extends Thread {
+  
+  int k;
+ 
+  public PidSleepThread(int i) {
+    k = i;
+  }
+  @Override
+  public void run() {
+    System.out.println("Thread number: " +k);
+    PidSleepThread.sleep(100);
+  }
+  
+}
+  public static void main(String [] args) {
+    
+    PidManager pM = new PidManager();
+    pM.allocate_map();
+    int min = 2000;
+    int max = 10000;
+    
+    for(int i = 0; i < 100; i++) {
+      PidSleepThread thread = new PidSleepThread(i);
+      thread.start();
+      System.out.println("Allocating a Pid: " + pM.allocate_pid());
+    }
+        
+  }
+}

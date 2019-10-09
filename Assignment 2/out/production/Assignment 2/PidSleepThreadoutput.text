@@ -1,0 +1,102 @@
+Thread number: 0
+Allocating a Pid: 300
+Thread number: 1
+Allocating a Pid: 301
+Thread number: 2
+Allocating a Pid: 302
+Thread number: 3
+Allocating a Pid: 303
+Thread number: 4
+Allocating a Pid: 304
+Thread number: 5
+Allocating a Pid: 305
+Thread number: 6
+Allocating a Pid: 306
+Thread number: 7
+Allocating a Pid: 307
+Thread number: 8
+Allocating a Pid: 308
+Thread number: 9
+Allocating a Pid: 309
+Thread number: 10
+Allocating a Pid: 310
+Thread number: 11
+Allocating a Pid: 311
+Thread number: 12
+Allocating a Pid: 312
+Thread number: 13
+Allocating a Pid: 313
+Thread number: 14
+Allocating a Pid: 314
+Thread number: 15
+Allocating a Pid: 315
+Thread number: 16
+Allocating a Pid: 316
+Thread number: 17
+Allocating a Pid: 317
+Thread number: 18
+Allocating a Pid: 318
+Thread number: 19
+Allocating a Pid: 319
+Thread number: 20
+Allocating a Pid: 320
+Thread number: 21
+Allocating a Pid: 321
+Thread number: 22
+Allocating a Pid: 322
+Thread number: 23
+Allocating a Pid: 323
+Thread number: 24
+Allocating a Pid: 324
+Releasing Pid: 303 after 5449 milliseconds 
+Pid: 303 is released
+Releasing Pid: 313 after 5647 milliseconds 
+Pid: 313 is released
+Releasing Pid: 304 after 6181 milliseconds 
+Pid: 304 is released
+Releasing Pid: 316 after 7469 milliseconds 
+Pid: 316 is released
+Releasing Pid: 320 after 7810 milliseconds 
+Pid: 320 is released
+Releasing Pid: 312 after 9154 milliseconds 
+Pid: 312 is released
+Releasing Pid: 314 after 9425 milliseconds 
+Pid: 314 is released
+Releasing Pid: 322 after 9786 milliseconds 
+Pid: 322 is released
+Releasing Pid: 305 after 10363 milliseconds 
+Pid: 305 is released
+Releasing Pid: 318 after 11534 milliseconds 
+Pid: 318 is released
+Releasing Pid: 300 after 12126 milliseconds 
+Pid: 300 is released
+Releasing Pid: 317 after 12088 milliseconds 
+Pid: 317 is released
+Releasing Pid: 311 after 12636 milliseconds 
+Pid: 311 is released
+Releasing Pid: 306 after 12821 milliseconds 
+Pid: 306 is released
+Releasing Pid: 310 after 12890 milliseconds 
+Pid: 310 is released
+Releasing Pid: 309 after 13548 milliseconds 
+Pid: 309 is released
+Releasing Pid: 315 after 13492 milliseconds 
+Pid: 315 is released
+Releasing Pid: 319 after 13523 milliseconds 
+Pid: 319 is released
+Releasing Pid: 323 after 13572 milliseconds 
+Pid: 323 is released
+Releasing Pid: 308 after 14081 milliseconds 
+Pid: 308 is released
+Releasing Pid: 324 after 15883 milliseconds 
+Pid: 324 is released
+Releasing Pid: 302 after 16617 milliseconds 
+Pid: 302 is released
+Releasing Pid: 321 after 16915 milliseconds 
+Pid: 321 is released
+Releasing Pid: 301 after 17205 milliseconds 
+Pid: 301 is released
+Releasing Pid: 307 after 19511 milliseconds 
+Pid: 307 is released
+
+Process finished with exit code 0

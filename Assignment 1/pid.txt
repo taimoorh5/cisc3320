@@ -1,0 +1,59 @@
+public class PidManagerTest {
+
+   public static void main(String[] args) {
+       PidManager.allocatMap();
+       System.out.println("Allocate PID :"+PidManager.allocatPID());
+       System.out.println("Allocate PID :"+PidManager.allocatPID());
+       System.out.println("Releasing PID :"+ 300);
+       PidManager.releasPID(300);
+       System.out.println("Allocate PID :"+PidManager.allocatPID());
+   }
+
+}
+
+class PidManager{
+   private static final int MIN_PID = 300;
+   private static final int MAX_PID = 5000;
+   private static int[] pid;
+   public static int allocatMap(){
+       pid = new int[MAX_PID - MIN_PID];
+       if(pid == null) return -1;
+       for(int i=0;i<pid.length;i++){
+           pid[i] = 0;
+       }
+       return 1;
+   }
+   public static int allocatPID(){
+       if(pid==null){
+           System.out.println("PID Manager is not initialized ");
+           return -1;
+       }
+       int pidNum =-1;
+       for(int i=0;i<pid.length;i++){
+           if(pid[i]==0){
+               pid[i]=1;
+               pidNum = i + MIN_PID;
+               break;
+           }
+       }
+       if(pidNum==-1){
+           System.out.println("Unable to allocat PID");
+       }
+       return pidNum;
+   }
+   public static void releasPID(int pidNum){
+       if(pid==null){
+           System.out.println("PID Manager is not initialized ");
+           return;
+       }
+       if(pidNum<MIN_PID || pidNum >MAX_PID){
+           System.out.println("Given PID is out or Range");
+       }
+       int newPid = pidNum - MIN_PID;
+       if(pid[newPid]==0){
+           System.out.println("PID"+newPid+" is already released ");
+           return;
+       }
+       pid[newPid]=0;
+   }
+}
