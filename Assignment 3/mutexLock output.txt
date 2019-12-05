@@ -1,0 +1,24 @@
+Successfully acquired a lock for Pids.
+Allocating a Pid: 300
+There are 0 permits available
+Allocating a Pid: 301
+There are 0 permits available
+Allocating a Pid: 302
+There are 0 permits available
+Allocating a Pid: 303
+There are 0 permits available
+Allocating a Pid: 304
+Successfully released lock for Pids.
+1 permit(s) are available.
+Releasing Pid: 302 after 7668 milliseconds 
+Pid: 302 is released
+Releasing Pid: 300 after 7747 milliseconds 
+Pid: 300 is released
+Releasing Pid: 304 after 11154 milliseconds 
+Pid: 304 is released
+Releasing Pid: 303 after 14398 milliseconds 
+Pid: 303 is released
+Releasing Pid: 301 after 17020 milliseconds 
+Pid: 301 is released
+
+Process finished with exit code 0
